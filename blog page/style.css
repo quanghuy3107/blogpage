@@ -1,0 +1,45 @@
+*{
+    
+    padding:  0;
+    margin: 0 ;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* #container{
+    width: 1920px;
+    margin: 0 auto;
+} */
+
+/* .logo{
+    width: 114px;
+    height: 83px;
+    
+
+} */
+.pad-container{
+    padding: 0 120px;
+}
+.nav-link{
+    font-size: 22px;
+}
+.nav-item{
+    padding: 0 40px;
+}
+.user{
+    width: 63px;
+height: 63px;
+}
+.font-user{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-heading{
+    position: relative;
+}
+
+.sub-nav{
+    position: absolute;
+    right: 0;
+}
