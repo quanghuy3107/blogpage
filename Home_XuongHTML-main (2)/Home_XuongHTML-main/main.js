@@ -1,43 +1,4 @@
-// var parameterScroll= document.querySelector('.our-success__parameter--hidden');
-// window.onscroll = () =>{
-//     var topE = parameterScroll.offsetTop;
-//     var btmE = parameterScroll.offsetTop + parameterScroll.clientHeight;
-//     var topScreen= window.pageXOffset;
-//     var btmScreen = window.pageYOffset + window . innerHeight;
-//     if (btmScreen > topE && topScreen < btmE) {
-        
-//     }
-// }
-// function counter() {
-//     const counters = document.querySelectorAll('.our-success__parameter-value');
-// const speed = 200;
-// // const valueDataSet = document.querySelectorAll('[data-set]');
-// // valueDataSet.forEach( element => {
-// //     var getValue = element.getAttribute('data-set');
-// // });
-// counters.forEach( counter => {
-//     // const valueDataSet = +counter.getAttribute('data-set');
-  
-//    const animate = () => {
-//       const value = +counter.getAttribute('data-set');
-//       const data = +counter.innerText;
-//       const time = value / speed;
-//      if(data < speed) {
-//           counter.innerText = Math.ceil(data + time);
-//           setTimeout(animate, 0.1);
-//         }else{
-//           counter.innerText = value;
-//         }
-//    }
-//    animate();
-// });
-// }
-// $(document).ready(function(){
-//   $('.counter').counterUp({
-//     delay: 15,
-//     time: 1200
-//   })
-// });
+
 $(document).ready(function() {
   var position = $('.our-success__parameter').offset().top;
   var winHeight = $(window).height();

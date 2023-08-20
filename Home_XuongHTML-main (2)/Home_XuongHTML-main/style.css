@@ -24,27 +24,7 @@ body{
   position: relative;
   
 }
-/* .banner{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  max-height: 40%;
-}
-.banner h2{
-  font-weight: 600;
-  counter-reset: #fff;
-  font-size: 35px;
-  margin-bottom: 10px;
-}
-.banner p{
-  font-weight: 400;
-  counter-reset: #fff;
-  font-size: 16px;
-  line-height: 25px;
-  margin-bottom: 0px;
-} */
+
 
 .navbar-light .navbar-nav .nav-link {
   font-size: 18px;
@@ -588,19 +568,6 @@ body{
   max-width: 66%;
 }
 
-/* 
-.content__ourFeature-peoples::before{
-  position: absolute;
-  display: block;
-  content: '';
-  width: 100%;
-  padding: 14px;
-  background-color: rgba(234, 234, 234, 0.6);
-  top: 0;
-  left: 0;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-} */
 .content__ourFeature-peoples::after{
   position: absolute;
   display: block;
